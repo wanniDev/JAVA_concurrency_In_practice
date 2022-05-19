@@ -31,7 +31,7 @@ public abstract class FutureRenderer {
 			}
 		} catch (InterruptedException e) {
 			Thread.currentThread().interrupt();
-			// 예외가 일어난 이상 해당 작업은 필요가 없으니 취소한다.
+			// 예외가 일어난 이상 작업은 필요하지 않으므로 취소시킨다.
 			future.cancel(true);
 		} catch (ExecutionException e) {
 			e.printStackTrace();
