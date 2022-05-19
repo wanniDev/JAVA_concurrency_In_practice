@@ -13,13 +13,6 @@ public abstract class SingleThreadRenderer {
 			renderImage(data);
 	}
 
-	interface ImageData {
-	}
-
-	interface ImageInfo {
-		ImageData downloadImage();
-	}
-
 	abstract void renderText(CharSequence s);
 	abstract List<ImageInfo> scanForImageInfo(CharSequence s);
 	abstract void renderImage(ImageData i);
