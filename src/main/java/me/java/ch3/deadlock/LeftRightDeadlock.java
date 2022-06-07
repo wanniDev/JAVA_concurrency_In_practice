@@ -25,6 +25,6 @@ public class LeftRightDeadlock {
 	}
 
 	private void doSomethingElse() {
-		
+
 	}
 }
