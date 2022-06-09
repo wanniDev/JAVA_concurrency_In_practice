@@ -1,4 +1,4 @@
-package me.java.ch3.extension;
+package me.java.ch3.scalability;
 
 import java.util.concurrent.BlockingQueue;
 
