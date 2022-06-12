@@ -19,7 +19,7 @@ public class PutTakeTest {
 	protected final AtomicInteger putSum = new AtomicInteger(0);
 	protected final AtomicInteger takeSum = new AtomicInteger(0);
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		new PutTakeTest(10, 10, 100000).test(); // sample parameters
 		pool.shutdown();
 	}
