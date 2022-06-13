@@ -6,6 +6,9 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 
+/**
+ * tryLock 메소드로 락 정렬 문제 해결.
+ */
 public class DeadlockAvoidance {
 	private static Random rnd = new Random();
 
